@@ -1,0 +1,23 @@
+div.twitter {
+	font-size: 10px;
+}
+
+div.twitter ul {
+  list-style-type: none;
+}
+
+div.twitter span {
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+div.twitter span.icon {
+	display: inline-block;
+	width: 12px;
+}
+
+div.twitter span.date {
+	display: inline-block;
+	width: 80px;
+}
+

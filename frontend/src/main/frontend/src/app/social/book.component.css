@@ -1,0 +1,23 @@
+div.book {
+	font-size: 10px;
+}
+
+div.book ul {
+  list-style-type: none;
+}
+
+div.book span {
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+div.book span.icon {
+	display: inline-block;
+	width: 12px;
+}
+
+div.book span.title {
+	display: inline-block;
+	width: 80px;
+}
+

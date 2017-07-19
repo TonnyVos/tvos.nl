@@ -1,0 +1,20 @@
+.navbar {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	font-size: 12px;
+	letter-spacing: 5px;
+	
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.navbar-fixed-top {
+  padding: 0;
+}
+
+.navbar-nav  li a:hover {
+	color: #1abc9c !important;
+}

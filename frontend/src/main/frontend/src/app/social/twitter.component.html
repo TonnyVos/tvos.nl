@@ -1,0 +1,17 @@
+
+	<h3 class="text-uppercase">Last Posts</h3>
+	<div *ngFor="let tweet of tweets"
+		class="card card-outline-primary text-center mb-3 twitter mx-auto" style="width: 20rem">
+		<div class="card-block">
+			<blockquote class="card-blockquote">
+				<p>
+					<span class="icon"><i *ngIf="tweet.isretweet"
+						class="fa fa-retweet" aria-hidden="true"></i></span><span class="date"
+						[innerHTML]="tweet.datestring"></span>
+				</p>
+				<p>
+					<span [innerHTML]="tweet.text"></span>
+				</p>
+			</blockquote>
+		</div>
+	</div>

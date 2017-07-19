@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+	position: relative;
+	color: #f5f6f7;
+}
+
+.bg1 {
+	background-color: #343434; /*#474e5d;*/
+}
+
+.bg2 {
+	background-color: #efefef; /*#b1c3e8;*/
+	color: #343434;
+}
+
+.bg3 {
+	background-color: #8e9cba;
+}
+
+.container-fluid-padded {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section > div > h2,
+section > div > div > h2 {
+	font-size: 18px;
+}
+
+section > div > div > div > h3 {
+	font-size: 14px;
+}
+
+section#Home i.socialmedia {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 4px;
+}
+
+section#Home a.socialmedia {
+	color:#ffffff;
+}
+
+section#Home a.socialmedia:hover {
+	color:#8e9cba;
+}
+
+section#Contact {
+	font-size: 11px;
+}
+
+section#Contact a {
+	color:#ffffff;
+}
